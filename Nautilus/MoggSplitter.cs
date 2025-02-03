@@ -18,7 +18,7 @@ using Un4seen.Bass.AddOn.Opus;
 
 namespace Nautilus
 {
-    class MoggSplitter
+    public class MoggSplitter
     {
         private NemoTools Tools;
         private DTAParser Parser;
