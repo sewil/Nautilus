@@ -72,7 +72,7 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject>Nautilus.Program</StartupObject>
@@ -83,44 +83,44 @@
   <ItemGroup>
     <Reference Include="Bass.Net, Version=2.4.11.0, Culture=neutral, PublicKeyToken=b7566c273e6ef480, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\Bass.Net.dll</HintPath>
+      <HintPath>..\bin\Bass.Net.dll</HintPath>
     </Reference>
     <Reference Include="DevComponents.DotNetBar2">
       <HintPath>.\DevComponents.DotNetBar2.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DocumentFormat.OpenXml">
-      <HintPath>bin\Debug\bin\DocumentFormat.OpenXml.dll</HintPath>
+      <HintPath>..\bin\DocumentFormat.OpenXml.dll</HintPath>
     </Reference>
     <Reference Include="IPAddressControlLib">
-      <HintPath>bin\Debug\bin\IPAddressControlLib.dll</HintPath>
+      <HintPath>..\bin\IPAddressControlLib.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="NAudio">
-      <HintPath>bin\Debug\bin\NAudio.dll</HintPath>
+      <HintPath>..\bin\NAudio.dll</HintPath>
     </Reference>
     <Reference Include="NautilusFREE">
-      <HintPath>bin\Debug\bin\NautilusFREE.dll</HintPath>
+      <HintPath>..\bin\NautilusFREE.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\bin\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\bin\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="PdfFileWriter, Version=1.0.0.2, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\bin\PdfFileWriter.dll</HintPath>
+      <HintPath>..\bin\PdfFileWriter.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="PsarcLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\bin\PsarcLib.dll</HintPath>
+      <HintPath>..\bin\PsarcLib.dll</HintPath>
     </Reference>
     <Reference Include="SharpMp4Parser">
-      <HintPath>..\..\..\..\..\My Documents\Visual Studio 2022\Projects\Nautilus\Nautilus\bin\Debug\SharpMp4Parser.dll</HintPath>
+      <HintPath>..\bin\SharpMp4Parser.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
@@ -136,7 +136,7 @@
       <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.FtpClient">
-      <HintPath>bin\Debug\bin\System.Net.FtpClient.dll</HintPath>
+      <HintPath>..\bin\System.Net.FtpClient.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Numerics" />
@@ -677,11 +677,11 @@
     <None Include="Resources\lastfm1.png" />
     <None Include="Resources\lastfm.png" />
     <Content Include="submarine.ico" />
-    <None Include="bin\Debug\res\thumbs\GH3.jpg" />
-    <None Include="bin\Debug\res\thumbs\GH4WT.jpg" />
-    <None Include="bin\Debug\res\thumbs\GH5.jpg" />
-    <None Include="bin\Debug\res\thumbs\GH6WOR.png" />
-    <None Include="bin\Debug\res\thumbs\GH2.jpg" />
+    <None Include="..\res\thumbs\GH3.jpg" />
+    <None Include="..\res\thumbs\GH4WT.jpg" />
+    <None Include="..\res\thumbs\GH5.jpg" />
+    <None Include="..\res\thumbs\GH6WOR.png" />
+    <None Include="..\res\thumbs\GH2.jpg" />
     <None Include="Resources\dc1.png" />
     <None Include="Resources\dc2.png" />
     <None Include="Resources\dc3.png" />
@@ -708,17 +708,17 @@
     <None Include="Resources\dragdropfolder2.jpg" />
     <None Include="Resources\help1.png" />
     <None Include="Resources\drag-drop.png" />
-    <None Include="bin\Debug\res\ghtorb3.png" />
-    <None Include="bin\Debug\res\logo.png" />
-    <None Include="bin\Debug\res\c3a.png" />
-    <None Include="bin\Debug\res\c3b.png" />
-    <None Include="bin\Debug\res\down.png" />
-    <None Include="bin\Debug\res\up.png" />
-    <None Include="bin\Debug\res\karaoke.png" />
-    <None Include="bin\Debug\res\multi.png" />
-    <None Include="bin\Debug\res\thumbs\TBRB.png" />
-    <None Include="bin\Debug\res\thumbs\GDRB.png" />
-    <None Include="bin\Debug\res\thumbs\RBL.jpg" />
+    <None Include="..\res\ghtorb3.png" />
+    <None Include="..\res\logo.png" />
+    <None Include="..\res\c3a.png" />
+    <None Include="..\res\c3b.png" />
+    <None Include="..\res\down.png" />
+    <None Include="..\res\up.png" />
+    <None Include="..\res\karaoke.png" />
+    <None Include="..\res\multi.png" />
+    <None Include="..\res\thumbs\TBRB.png" />
+    <None Include="..\res\thumbs\GDRB.png" />
+    <None Include="..\res\thumbs\RBL.jpg" />
     <None Include="Resources\moveall.png" />
     <None Include="Resources\up1.png" />
     <None Include="Resources\down1.png" />
@@ -747,7 +747,7 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="bin\Debug\bin\" />
+    <Folder Include="..\bin\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
